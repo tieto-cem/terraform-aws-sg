@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/tieto-cem/terraform-aws-sg.svg?style=shield&circle-token=b2c2e0eb964979cedf5dfd87904b7eee291f4f81)](https://circleci.com/gh/tieto-cem/terraform-aws-sg)
+
 Terraform Security Group module
 ====================
 
