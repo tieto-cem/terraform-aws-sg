@@ -13,7 +13,7 @@ variable "vpc_id" {
 }
 
 variable "allow_cidrs" {
-  type = "map"
+  type = map
   default = {}
   description = <<EOF
       A mapping between ports and list of allowed CIDR blocks. Note that ports should be mapped only once.
@@ -27,7 +27,7 @@ EOF
 
 
 variable "allow_sgs" {
-  type = "map"
+  type = map
   default = {
     "Count" = 0
   }
